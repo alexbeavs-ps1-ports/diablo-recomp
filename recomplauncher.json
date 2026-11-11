@@ -1,0 +1,32 @@
+{
+  "$schema": "https://recomplauncher.com/schema/recomplauncher.json",
+  "format": 1,
+  "name": "Diablo Recompiled",
+  "repo": "alexbeavs-ps1-ports/diablo-recomp",
+  "game": {
+    "kind": "iso",
+    "label": "Your copy of Diablo (Europe) for the PlayStation, serial SLES-01156: its .cue sheet (with its .bin next to it) or a .chd.",
+    "check": { "ids": ["SLES-01156"] },
+    "dumps": [
+      { "name": "Europe", "size": 653296224, "crc32": "0d207413" }
+    ]
+  },
+  "start": {
+    "program": ["Diablo_Recompiled.exe", "Diablo_Recompiled"],
+    "args": ["--disc", "{game}"]
+  },
+  "settings": [
+    {
+      "id": "renderer",
+      "label": "Renderer",
+      "help": "How the game draws. The game's option uses what it was set up with. Vulkan or OpenGL need a graphics card with their drivers.",
+      "in": "args",
+      "choices": [
+        { "label": "Game's option", "args": [] },
+        { "label": "OpenGL", "args": ["--renderer", "opengl"] },
+        { "label": "Vulkan", "args": ["--renderer", "vulkan"] },
+        { "label": "Software", "args": ["--renderer", "software"] }
+      ]
+    }
+  ]
+}
