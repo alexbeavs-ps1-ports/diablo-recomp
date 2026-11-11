@@ -82,3 +82,4 @@ starvation_dump.jsonl
 !/disc_probe.[0-9].json
 !/disc_probe.[0-9][0-9].json
 !/disc_set.json
+!/recomplauncher.json
