@@ -2,6 +2,8 @@
 
 # Diablo Recompiled
 
+<a href="https://recomplauncher.com/game/diablo-recomp"><picture><source media="(prefers-color-scheme: dark)" srcset="https://recomplauncher.com/assets/press/launcher/badge-light.svg"><img alt="Get it on RecompLauncher" src="https://recomplauncher.com/assets/press/launcher/badge-dark.svg" height="48"></picture></a>
+
 <!-- retcomm-readme-metrics -->
 [![GitHub downloads (all assets, all releases)](https://img.shields.io/github/downloads/Alexbeav/diablo-recomp/total)](https://github.com/Alexbeav/diablo-recomp/releases)
 [![GitHub downloads (latest release)](https://img.shields.io/github/downloads/Alexbeav/diablo-recomp/latest/total)](https://github.com/Alexbeav/diablo-recomp/releases/latest)

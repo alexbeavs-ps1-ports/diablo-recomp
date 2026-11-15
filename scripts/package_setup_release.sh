@@ -60,6 +60,7 @@ exec bash "${PACKAGER}" \
   --project-file LICENSE \
   --project-file THIRD_PARTY_NOTICES.md \
   --project-file README.md \
+  --project-file recomplauncher.json \
   --project-dir seeds \
   --project-dir assets \
   "${EXTRA_PROJECT[@]}"
